@@ -1,0 +1,60 @@
+#mainContainer {
+   float:left;
+   width: 500px;
+   clear: left;
+}
+
+#rightContainer {
+   float:right;
+   width: 200px;
+   clear:right;
+   overflow-y: auto;
+
+}
+.venueDivWrapper {
+   width:100%;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.venueDiv{
+   float: left;
+   padding-left:2px;
+   padding-right: 2px;
+   cursor: pointer;
+   width: 100%;
+}
+
+.venueDiv:hover {
+   border-color: black;
+}
+
+.venueDiv h1 {
+   font-size: 13px;
+   font-weight: bold;
+   font-family: sans-serif;
+   text-align: center;
+   margin: 3px;
+   text-transform: capitalize;
+}
+
+#photosBox {
+    margin: 3px;
+}
+
+#photo {
+    width: 300px;
+    overflow: hidden;
+}
+
+#photosBottom {
+    clear:both;
+}
+
+#photosNext {
+    float: right;
+}
+
+#photosLast {
+    float: left;
+}
